@@ -90,14 +90,14 @@
     <Resource Include="Resources\Background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Cards.PNG" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="DeckShape.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\SCards.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

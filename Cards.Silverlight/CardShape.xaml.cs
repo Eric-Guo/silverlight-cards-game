@@ -19,6 +19,8 @@ namespace Cards.Silverlight
     {
         #region Constants
 
+        public const double CardOrigX = 0;
+        public const double CardOrigY = 0; 
         public const double CardWidth = 72;
         public const double CardHeight = 97;
         public const double CardWidthRect = 73;
@@ -107,7 +109,7 @@ namespace Cards.Silverlight
                     y = 5;
                 }
 
-                ((RectangleGeometry)imgCard.Clip).Rect = new Rect(x * CardWidthRect, y * CardHeightRect, CardWidth, CardHeight);
+                ((RectangleGeometry)imgCard.Clip).Rect = new Rect(x * CardWidthRect + CardOrigX, y * CardHeightRect + CardOrigY, CardWidth, CardHeight);
                 foreach (Transform tran in ((TransformGroup)imgCard.RenderTransform).Children)
                 {
                     if (tran.GetType() == typeof(TranslateTransform))

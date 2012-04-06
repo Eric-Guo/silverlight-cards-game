@@ -46,7 +46,7 @@
 					<TranslateTransform/>
 				</TransformGroup>
 			</Canvas.RenderTransform>
-		<Image HorizontalAlignment="Left" Source="Resources/Cards.PNG" Stretch="None" VerticalAlignment="Top" RenderTransformOrigin="0.05,0.08" x:Name="imgCard" MouseEnter="imgCard_MouseEnter" MouseLeave="imgCard_MouseLeave" MouseLeftButtonDown="imgCard_MouseLeftButtonDown" MouseLeftButtonUp="imgCard_MouseLeftButtonUp" MouseMove="imgCard_MouseMove">
+		<Image HorizontalAlignment="Left" Source="Resources/SCards.PNG" Stretch="None" VerticalAlignment="Top" RenderTransformOrigin="0.05,0.08" x:Name="imgCard" MouseEnter="imgCard_MouseEnter" MouseLeave="imgCard_MouseLeave" MouseLeftButtonDown="imgCard_MouseLeftButtonDown" MouseLeftButtonUp="imgCard_MouseLeftButtonUp" MouseMove="imgCard_MouseMove">
 			<Image.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
