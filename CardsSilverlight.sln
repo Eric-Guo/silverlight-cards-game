@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Web Developer Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards.Data", "Cards.Data\Cards.Data.csproj", "{0E58C961-FCB0-405D-8658-6572B11FD6E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cards.Silverlight", "Cards.Silverlight\Cards.Silverlight.csproj", "{939B037D-633F-41EB-8D75-F7FBAF6D4CCE}"
