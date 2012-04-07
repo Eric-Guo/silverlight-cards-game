@@ -31,7 +31,7 @@ namespace SpiderSolitaire
         {
             gameShape.Game = new Game();
             //Dealer
-            dealer = new Deck(2, gameShape.Game);
+            dealer = new Deck(2, 13, gameShape.Game);
             
             dealer.FlipAllCards();
             dealer.EnableAllCards(false);

@@ -43,7 +43,7 @@ namespace Solitaire
             gameShape.Game = new Game();
 
             //Dealer
-            dealer = new Deck(1, gameShape.Game);
+            dealer = new Deck(1, 13, gameShape.Game);
             dealer.Shuffle(5);
             dealer.FlipAllCards();
             dealer.EnableAllCards(false);

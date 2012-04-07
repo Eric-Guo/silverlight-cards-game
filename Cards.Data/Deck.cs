@@ -88,14 +88,14 @@ namespace Cards.Data
             this.game.Decks.Add(this);
         }
 
-        public Deck(int numberOfDecks, Game game)
+        public Deck(int numberOfDecks, int uptoNumber, Game game)
             : this(game)
         {
             for (int deck = 0; deck < numberOfDecks; deck++)
             {
                 for (int suit = 1; suit <= 4; suit++)
                 {
-                    for (int number = 1; number <= 13; number++)
+                    for (int number = 1; number <= uptoNumber; number++)
                     {
                         Cards.Add(new Card(number, (CardSuit)suit, this));
                     }

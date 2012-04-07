@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solitaire", "Solitaire\Soli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiderSolitaire", "SpiderSolitaire\SpiderSolitaire.csproj", "{9768D2D6-BA7B-4C0C-AF08-F38BDF373917}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate24", "Calculate24\Calculate24.csproj", "{C7E34166-F184-428D-A545-DC9D0625945B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{9768D2D6-BA7B-4C0C-AF08-F38BDF373917}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9768D2D6-BA7B-4C0C-AF08-F38BDF373917}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9768D2D6-BA7B-4C0C-AF08-F38BDF373917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E34166-F184-428D-A545-DC9D0625945B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E34166-F184-428D-A545-DC9D0625945B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E34166-F184-428D-A545-DC9D0625945B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E34166-F184-428D-A545-DC9D0625945B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
