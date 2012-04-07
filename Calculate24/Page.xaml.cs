@@ -90,16 +90,20 @@ namespace Calculate24
                 this.LayoutRoot.Children.Add(deckShape);
                 if (i % 2 == 0)
                 {
-                    Canvas.SetLeft(deckShape, 200 + (i * 100));
-                    Canvas.SetTop(deckShape, 24);
+                    Canvas.SetLeft(deckShape, 340 + (i * 120));
+                    Canvas.SetTop(deckShape, 57);
                 }
                 else
                 {
-                    Canvas.SetLeft(deckShape, 200 + (i - 1) * 100);
-                    Canvas.SetTop(deckShape, 24+220);
+                    Canvas.SetLeft(deckShape, 340 + (i - 1) * 120);
+                    Canvas.SetTop(deckShape, 57+270);
                 }
             }
+        }
 
+        private void imgFullScreen_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            Application.Current.Host.Content.IsFullScreen = !Application.Current.Host.Content.IsFullScreen;
         }
     }
 }
