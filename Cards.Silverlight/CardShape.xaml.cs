@@ -98,14 +98,14 @@ namespace Cards.Silverlight
                                 break;
                         }
 
-                        x = (number % 2) + 8;
+                        x = (number % 2) + 12; // using 8 to Classic version, 10 to Heart version and 12 to Season version
                         y = number / 2;
                     }
                 }
                 else
                 {
                     //Show back of the card
-                    x = 8;
+                    x = 12;
                     y = 6;
                 }
 

@@ -49,7 +49,7 @@ namespace Calculate24
         private Deck ReturnLeastCardDeck()
         {
             Deck least = stackDecks[0];
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 13; i++)
             {
                 foreach (Deck dk in stackDecks)
                 {
@@ -66,7 +66,7 @@ namespace Calculate24
             stackDecks = new List<Deck>();
 
             //Dealer
-            dealer = new Deck(1, 10, gameShape.Game);
+            dealer = new Deck(1, 13, gameShape.Game);
             dealer.Shuffle(5);
             dealer.FlipAllCards();
             dealer.EnableAllCards(true);
@@ -90,13 +90,13 @@ namespace Calculate24
                 this.LayoutRoot.Children.Add(deckShape);
                 if (i % 2 == 0)
                 {
-                    Canvas.SetLeft(deckShape, 200 + (i * 100));
-                    Canvas.SetTop(deckShape, 24);
+                    Canvas.SetLeft(deckShape, 210 + (i * 90));
+                    Canvas.SetTop(deckShape, 17);
                 }
                 else
                 {
-                    Canvas.SetLeft(deckShape, 200 + (i - 1) * 100);
-                    Canvas.SetTop(deckShape, 24+220);
+                    Canvas.SetLeft(deckShape, 210 + (i - 1) * 90);
+                    Canvas.SetTop(deckShape, 17+220);
                 }
             }
 
