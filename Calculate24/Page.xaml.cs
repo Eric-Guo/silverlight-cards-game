@@ -90,13 +90,13 @@ namespace Calculate24
                 this.LayoutRoot.Children.Add(deckShape);
                 if (i % 2 == 0)
                 {
-                    Canvas.SetLeft(deckShape, 200 + (i * 95));
-                    Canvas.SetTop(deckShape, 27);
+                    Canvas.SetLeft(deckShape, 200 + (i * 100));
+                    Canvas.SetTop(deckShape, 24);
                 }
                 else
                 {
-                    Canvas.SetLeft(deckShape, 200 + (i - 1) * 95);
-                    Canvas.SetTop(deckShape, 27+220);
+                    Canvas.SetLeft(deckShape, 200 + (i - 1) * 100);
+                    Canvas.SetTop(deckShape, 24+220);
                 }
             }
 

@@ -19,12 +19,12 @@ namespace Cards.Silverlight
     {
         #region Constants
 
-        public const double CardOrigX = 0;
-        public const double CardOrigY = 0; 
-        public const double CardWidth = 72;
-        public const double CardHeight = 97;
-        public const double CardWidthRect = 73;
-        public const double CardHeightRect = 98;
+        public const double CardOrigX = 76;
+        public const double CardOrigY = 61; 
+        public const double CardWidth = 72*2;
+        public const double CardHeight = 97*2;
+        public const double CardWidthRect = 73*2;
+        public const double CardHeightRect = 98*2;
 
         #endregion
 
@@ -105,8 +105,8 @@ namespace Cards.Silverlight
                 else
                 {
                     //Show back of the card
-                    x = 7;
-                    y = 5;
+                    x = 8;
+                    y = 6;
                 }
 
                 ((RectangleGeometry)imgCard.Clip).Rect = new Rect(x * CardWidthRect + CardOrigX, y * CardHeightRect + CardOrigY, CardWidth, CardHeight);
@@ -114,8 +114,8 @@ namespace Cards.Silverlight
                 {
                     if (tran.GetType() == typeof(TranslateTransform))
                     {
-                        tran.SetValue(TranslateTransform.XProperty, -x * CardWidthRect);
-                        tran.SetValue(TranslateTransform.YProperty, -y * CardHeightRect);
+                        tran.SetValue(TranslateTransform.XProperty, -x * CardWidthRect - CardOrigX);
+                        tran.SetValue(TranslateTransform.YProperty, -y * CardHeightRect - CardOrigY);
                     }
                 }
                 imgCard.RenderTransformOrigin = new Point(0.05 + (x * 0.1), 0.08 + (y * 0.166666));

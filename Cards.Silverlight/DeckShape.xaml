@@ -1,10 +1,10 @@
 ﻿<UserControl x:Class="Cards.Silverlight.DeckShape"
     xmlns="http://schemas.microsoft.com/client/2007" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	Width="72" Height="97">
+	Width="144" Height="194">
     <Canvas x:Name="LayoutRoot">
-    	<Rectangle Height="97" Width="72" Stroke="#FFFFFEE3" RadiusX="5" RadiusY="5" Visibility="Visible" StrokeThickness="3" x:Name="rectBorderBack" Opacity="0.7" Canvas.Left="0" Canvas.Top="0" Fill="#00000000" MouseEnter="rectBorderBack_MouseEnter" MouseLeave="rectBorderBack_MouseLeave" MouseLeftButtonDown="rectBorderBack_MouseLeftButtonDown" MouseLeftButtonUp="rectBorderBack_MouseLeftButtonUp" MouseMove="rectBorderBack_MouseMove"/>
-    	<Rectangle Height="103" Width="78" Stroke="#FFFFF500" RadiusX="5" RadiusY="5" Visibility="Visible" StrokeThickness="5" x:Name="rectBorder" Opacity="0.7" Canvas.Left="-3" Canvas.Top="-3"/>
+    	<Rectangle Height="194" Width="144" Stroke="#FFFFFEE3" RadiusX="8" RadiusY="8" Visibility="Visible" StrokeThickness="3" x:Name="rectBorderBack" Opacity="0.7" Canvas.Left="0" Canvas.Top="0" Fill="#00000000" MouseEnter="rectBorderBack_MouseEnter" MouseLeave="rectBorderBack_MouseLeave" MouseLeftButtonDown="rectBorderBack_MouseLeftButtonDown" MouseLeftButtonUp="rectBorderBack_MouseLeftButtonUp" MouseMove="rectBorderBack_MouseMove"/>
+    	<Rectangle Height="202" Width="152" Stroke="#FFFFF500" RadiusX="10" RadiusY="10" Visibility="Visible" StrokeThickness="5" x:Name="rectBorder" Opacity="0.7" Canvas.Left="-4" Canvas.Top="-4"/>
 
     </Canvas>
 </UserControl>

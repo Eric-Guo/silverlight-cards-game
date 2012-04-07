@@ -10,7 +10,7 @@
     <Canvas x:Name="LayoutRoot" Background="#FFFFFFFF" Loaded="LayoutRoot_Loaded">
 
         <Cards_Silverlight:GameShape x:Name="gameShape"/>
-        <Cards_Silverlight:DeckShape Canvas.Left="24" Canvas.Top="99" x:Name="Dealer" CardSpacerY="1" MaxCardsSpace="10"/>
-        <TextBlock Height="17" Width="62" Text="算24点" FontSize="16" Foreground="#FFFFFFFF" Canvas.Left="566" Canvas.Top="439" FontWeight="Normal" FontFamily="Georgia"/>
+        <Cards_Silverlight:DeckShape Canvas.Left="12" Canvas.Top="12" x:Name="Dealer" CardSpacerY="1" MaxCardsSpace="10"/>
+        <TextBlock Height="17" Width="62" Text="算24点" FontSize="16" Foreground="#FFFFFFFF" Canvas.Left="578" Canvas.Top="451" FontWeight="Normal" FontFamily="Georgia"/>
     </Canvas>
 </UserControl>

@@ -37,7 +37,7 @@
 	</UserControl.Resources>
 
 	<Canvas x:Name="LayoutRoot">
-		<Canvas x:Name="CardCanvas" Height="97" Width="72" RenderTransformOrigin="0.5,0.5">
+		<Canvas x:Name="CardCanvas" Height="194" Width="144" RenderTransformOrigin="0.5,0.5">
 			<Canvas.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -46,7 +46,7 @@
 					<TranslateTransform/>
 				</TransformGroup>
 			</Canvas.RenderTransform>
-		<Image HorizontalAlignment="Left" Source="Resources/SCards.PNG" Stretch="None" VerticalAlignment="Top" RenderTransformOrigin="0.05,0.08" x:Name="imgCard" MouseEnter="imgCard_MouseEnter" MouseLeave="imgCard_MouseLeave" MouseLeftButtonDown="imgCard_MouseLeftButtonDown" MouseLeftButtonUp="imgCard_MouseLeftButtonUp" MouseMove="imgCard_MouseMove">
+		<Image HorizontalAlignment="Left" Source="Resources/LCards.JPG" Stretch="None" VerticalAlignment="Top" RenderTransformOrigin="0.05,0.08" x:Name="imgCard" MouseEnter="imgCard_MouseEnter" MouseLeave="imgCard_MouseLeave" MouseLeftButtonDown="imgCard_MouseLeftButtonDown" MouseLeftButtonUp="imgCard_MouseLeftButtonUp" MouseMove="imgCard_MouseMove">
 			<Image.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -56,10 +56,10 @@
 				</TransformGroup>
 			</Image.RenderTransform>
 			<Image.Clip>
-				<RectangleGeometry Rect="0,0,72,97" RadiusX="5" RadiusY="5" />
+				<RectangleGeometry Rect="76,61,144,194" RadiusX="8" RadiusY="8" />
 			</Image.Clip>
 		</Image>
-		<Rectangle Height="103" Width="78" Stroke="#FFFFF500" RadiusX="5" RadiusY="5" Visibility="Visible" StrokeThickness="5" x:Name="rectBorder" Canvas.Left="-3" Canvas.Top="-3" Opacity="0.7"/>
+		<Rectangle Height="202" Width="152" Stroke="#FFFFF500" RadiusX="8" RadiusY="8" Visibility="Visible" StrokeThickness="5" x:Name="rectBorder" Canvas.Left="-3" Canvas.Top="-3" Opacity="0.7"/>
 		</Canvas>
 	</Canvas>
 </UserControl>
