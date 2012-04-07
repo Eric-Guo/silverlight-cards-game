@@ -12,7 +12,7 @@
         <Cards_Silverlight:GameShape x:Name="gameShape" Height="600" Width="800" />
         <Cards_Silverlight:DeckShape Canvas.Left="45" Canvas.Top="158" x:Name="Dealer" CardSpacerY="1" MaxCardsSpace="10"/>
         <Image Source="Resources/FullScreen.png" Canvas.Left="756" Canvas.Top="12" MouseLeftButtonUp="imgFullScreen_MouseLeftButtonUp" Name="imgFullScreen" />
-        <HyperlinkButton Height="16" Width="61" Canvas.Left="707" Canvas.Top="555" NavigateUri="http://eric.cloud-mes.com/">
+        <HyperlinkButton Height="16" Width="61" Canvas.Left="707" Canvas.Top="555" NavigateUri="http://eric.cloud-mes.com/" BorderThickness="0">
         <TextBlock Height="17" Width="62" Text="算24点" FontSize="16" Foreground="#FFFFFFFF" FontWeight="Normal" FontFamily="Georgia" />
         </HyperlinkButton>            
     </Canvas>
